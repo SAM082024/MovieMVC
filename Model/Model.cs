@@ -7,3 +7,16 @@ public class Model
     public string? Genre { get; set; } // For displaying the movie genre
     public string? Director { get; set; } // For displaying the movie director
 }
+
+public class Movie
+{
+    public List<Model> Movies { get; set; }
+
+    public Movie()
+    {
+        Movies = new List<Model>
+        {
+            
+        };
+    }
+}
