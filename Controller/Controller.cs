@@ -9,6 +9,12 @@ public class Controller
         _view = view;
     }
 
+    public void AddMovie(string title, int year, string genre, string developer)
+    {
+        _model.AddMovie(title, year, genre, developer);
+        Console.WriteLine("Movie has been added successfully!");
+    }
+
     public void Run()
     {
         _view.displayMovies();
