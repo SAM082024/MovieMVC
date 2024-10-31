@@ -16,7 +16,7 @@ public class View
             Console.WriteLine($"Title: {movie.Title}\n");
             Console.WriteLine($"Year: {movie.Year}\n");
             Console.WriteLine($"Genre: {movie.Genre}\n");
-            Console.WriteLine($"Director: {movie.Director}\n");
+            Console.WriteLine($"Director: {movie.Director}\n\n\n");
         }
     }
 }
