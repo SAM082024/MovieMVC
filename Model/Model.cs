@@ -19,6 +19,7 @@ public class Movie
             new() { Title = "Prometheus", Year = 2012, Genre = "Sci-Fi, Horror, Action, Thriller", Director = "Ridley Scott"},
             new() { Title = "Alien Covenant", Year = 2017, Genre = "Sci-Fi, Horror, Action, Thriller", Director = "Ridley Scott"},
             new() { Title = "Alien", Year = 1979, Genre = "Sci-Fi, Horror, Action, Thriller", Director = "Ridley Scott"},
+            new() { Title = "Alien", Year = 1986, Genre = "Sci-Fi, Horror, Action, Thriller", Director = "James Cameron"},
         };
     }
 }
