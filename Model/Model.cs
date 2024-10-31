@@ -24,4 +24,9 @@ public class Movie
             new() { Title = "Alien: Resurrection", Year = 1997, Genre = "Sci-Fi, Horror, Action, Thriller", Director = "Jean-Pierre Jeunet"},
         };
     }
+
+    public void AddMovie(string title, int year, string genre, string director)
+    {
+        Movies.Add(new Model { Title = title, Year = year, Genre = genre, Director = director});
+    }
 }
