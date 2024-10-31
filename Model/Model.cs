@@ -16,7 +16,7 @@ public class Movie
     {
         Movies = new List<Model>
         {
-            
+            new() { Title = "Prometheus", Year = 2012, Genre = "Sci-Fi, Horror, Action, Thriller", Director = "Ridley Scott"},
         };
     }
 }
