@@ -20,6 +20,7 @@ public class Movie
             new() { Title = "Alien Covenant", Year = 2017, Genre = "Sci-Fi, Horror, Action, Thriller", Director = "Ridley Scott"},
             new() { Title = "Alien", Year = 1979, Genre = "Sci-Fi, Horror, Action, Thriller", Director = "Ridley Scott"},
             new() { Title = "Alien", Year = 1986, Genre = "Sci-Fi, Horror, Action, Thriller", Director = "James Cameron"},
+            new() { Title = "Alien 3", Year = 1992, Genre = "Sci-Fi, Horror, Action, Thriller", Director = "David Fincher"},
         };
     }
 }
