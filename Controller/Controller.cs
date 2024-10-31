@@ -17,6 +17,11 @@ public class Controller
 
     public void Run()
     {
-        _view.displayMovies();
+        bool isRunning = true;
+        
+        while (isRunning)
+        {
+            
+        }
     }
 }
